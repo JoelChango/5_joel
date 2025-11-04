@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario avanzado</title>
+</head>
+<body>
+
+  <form action="mailto:xxxxxxx@educa.madrid.org" method="POST">
+
+    <fieldset>
+      <legend>Personaje</legend>
+
+      <label for="superheroe">Superhéroe favorito</label>
+      <select id="superheroe" name="superheroe">
+        <option>Elige superhéroe</option>
+        <option>Iron Man</option>
+        <option>The Hulk</option>
+      </select>
+
+      <br><br>
+
+      <label for="color">Color</label>
+      <input type="color" id="color" name="color">
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de contacto</legend>
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre Apellido">
+
+      <br><br>
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono">
+      <small>Formato: 999999999</small>
+
+      <br><br>
+
+      <label for="fecha">Fecha</label>
+      <input type="date" id="fecha" name="fecha">
+
+      <br><br>
+
+      <label for="contrasena">Contraseña</label>
+      <input type="password" id="contrasena" name="contrasena">
+    </fieldset>
+
+    <fieldset>
+      <legend>Selecciona forma de contacto preferida:</legend>
+      <input type="radio" id="email" name="contacto" value="email">
+      <label for="email">Email</label>
+
+      <input type="radio" id="telefonoC" name="contacto" value="telefono">
+      <label for="telefonoC">Teléfono</label>
+
+      <input type="radio" id="carta" name="contacto" value="carta">
+      <label for="carta">Carta</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Elige tus asignaturas favoritas</legend>
+      <input type="checkbox" id="appweb" name="asignatura" value="aplicaciones web">
+      <label for="appweb">Aplicaciones web</label>
+
+      <input type="checkbox" id="seguridad" name="asignatura" value="seguridad informatica">
+      
+      <label for="seguridad">Seguridad informática</label>
+    </fieldset>
+
+    <br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+
+  </form>
+
+</body>
+</html>
