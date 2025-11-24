@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi CV - Joel Emmanuel</title>
+    <style>
+        body {
+            font-family: 'Arial', Helvetica, sans-serif;
+            background-color: #0a0a0a; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #082e4d; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .photo-container {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 15px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #bbdefb; 
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            gap: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 5px 10px;
+            background-color: #bbdefb; 
+            border-radius: 5px;
+            color: #0d47a1; 
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: #99b2c7; 
+            cursor:default;
+        }
+
+        nav ul li.active a {
+            background-color: #20221f; 
+            color: white;
+            cursor:default;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #ffffff; 
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(15, 15, 15, 0.904);
+        }
+
+        h3 {
+            border-bottom: 2px solid #90caf9;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #64b5f6;
+            color: white;
+            padding: 10px;
+            margin-top: 20px; 
+        }
+
+        .skills,
+        .knowledge,
+        .languages {
+            margin-bottom: 15px;
+        }
+
+        .social a {
+            font-size: 1.1em;
+            color: white;
+        }
+
+        .social a:hover {
+            color: #bbdefb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="photo-container">
+            <img src="joel_emmanuel.jpeg" alt="joel_emmanuel">
+        </div>
+        <h1>Joel Emmanuel</h1>
+        <p>Hola, mi nombre es Joel Emmanuel y este es mi CV</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li ><a href="#">Inicio</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="https://www.linkedin.com/in/joel-chango-barzola-666a53338/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/emmanuel11.ch" target="_blank">Instagram</a></li>
+        </ul>
+    </nav>
+
+    <section id="skills" class="skills">
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Trabajo en equipo: colaboración con compañeros en proyectos o tareas.</li>
+            <li>Comunicación: expresarte de forma clara por escrito y verbal.</li>
+            <li>Responsabilidad y puntualidad.</li>
+            <li>Aprendizaje rápido de nuevas herramientas o procedimientos.</li>
+        </ul>
+    </section>
+
+    <section id="knowledge" class="knowledge">
+        <h3>Conocimientos</h3>
+        <div>
+            <h4>Avanzados</h4>
+            <ul>
+                <li>Tengo la ESO y estoy graduado en Microsistemas y Redes.</li>
+                <li>Excel con fórmulas, tablas dinámicas y gráficos; Word con plantillas y automatización básica.</li>
+                <li>Inglés intermedio (capacidad de leer manuales o comunicarse con vocabulario técnico).</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Básicos</h4>
+            <ul>
+                <li>Manejo básico de Microsoft Office (Word, Excel, PowerPoint).</li>
+                <li>Uso de correo electrónico y herramientas de comunicación (Gmail, Outlook, Teams, Zoom).</li>
+                <li>Manejo de sistemas operativos (Windows, Linux o macOS).</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="languages" class="languages">
+        <h3>Idiomas</h3>
+        <ul>
+            <li>🇬🇧 Inglés - B1 Intermedio</li>
+            <li>🇪🇸 Español - Nativo</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h3>Experiencia Laboral</h3>
+        <ul>
+            <li>Prácticas profesionales en el área de Microsistemas y Redes.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Creado por: <a href="mailto:joelchangobarzola@gmail.com">@joelchangobarzola@gmail.com</a> / 2025 </p>
+    </footer>
+
+</body>
+</html>
+
+
